@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    scroll-behavior:smooth;
+}
+
+#section3 {
+    display: flex;
+    width: 100%;
+    /* height: 90%; */
+    flex-direction: column;
+    /* gap: 4rem; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 6rem;
+    background-image: url("./images/laptop2.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+section .content {
+    display: flex;
+    width: 90%;
+    height: 385px;
+    /* padding: ; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 0 10px;
+    gap: 4rem;
+}
+
+.content article .title  {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+/* 
+ section .process {
+    display: flex;
+    width: 75%;
+    gap: 8rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.process article   {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+     /* height: 80px; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.process article  h1 {
+    display: flex;
+    font-size: 30px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-weight: 400;
+    gap: 2rem;
+    color: white;
+}
+
+.process article p {
+    width: 70%;
+    font-size: 24px;
+    color: white;
+}
+
+.idea {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* gap:1rem; */
+    justify-content: center;
+    gap: 10px;
+}
+
+.idea img {
+    width: 18%;
+}  
+
+figure {
+    display: flex;
+    width: 140px;
+    /* height: 40%; */
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: white;
+}
+
+figure span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+figure img {
+    margin-top: 10px;
+     border-radius: 10px;
+}
+
+figure p {
+    font-size: 16px;
+    width: 100px;
+    padding: 2px;
+}
+
+figcaption {
+    display: flex;
+    width: 74%;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+   
+    
+}
+
+ .overlay {
+    background-color:rgba(137, 43, 226, 0.579);
+  
+}
+
+.overlay .directive  {
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    font-size: 23px;
+    gap: 1rem;
+}
+
+.directive a {
+    color: cyan;
+}
+
+.directive a:hover {
+    text-decoration: underline;
+    color: deeppink;
+}
+
+/* #section5  {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* #section4  .content {
+    display: flex;
+    flex-direction: column;
+} */
+
+#section4 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#section4  article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+#section4 .views {
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.views figure {
+    width: 23%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px 3px black;
+}
+
+ h1 {
+    font-size: 26px;
+}
+
+.views p {
+    width: 70%;
+}
+
+#section4 img {
+    width: 40px;
+}
+
+#section4 figcaption div {
+    display: flex;
+    /* gap: 3rem; */
+    /* flex-direction: column; */
+}
+
+  #section4 figcaption  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* width: 100%; */
+}
+
+figcaption .title {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title span {
+    color: deeppink;
+}
+
+figcaption .dot {
+    display: flex;
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 35px;
+    color: grey;
+    background-color: gainsboro;
+}
+
+figcaption  .names {
+    display: flex;
+    gap: 1rem;
+}
+
+#section5 .content {
+    display: flex;
+    gap: 2rem;
+}
+
+.content article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    /* height: 80%; */
+    align-items: center;
+    justify-content: center;
+}
+
+.content article h1 {
+    font-size: 26px;
+}
+article .price {
+    display: flex;
+    gap: 5rem;
+    border-radius: 16px;
+}
+
+.price figure {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height:295px;
+    gap: 1rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px  5px;
+}
+
+.price figure article {
+    display: flex;
+    width: 140px;
+    flex-direction: column;
+    gap: 10px;
+    /* border-radius: 15px; */
+}
+
+figure .amount {
+    padding: 6px;
+    border-radius: 16px;
+    background-color:deeppink ;
+    color: white;
+}
+
+figure .words {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.purchase span {
+    display: flex;
+   padding: 4px;
+   border-radius: 8px;
+   justify-content: center;
+   color: white;
+   background-color: rgba(128, 0, 128, 0.77);
+}
+
+
+
